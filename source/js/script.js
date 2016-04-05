@@ -25,4 +25,6 @@
   $('#main-nav-toggle').click(function () {
     $('#header').toggleClass('mobile-on');
   });
+
+  searchFunc("/search.xml", 'local-search-input', 'local-search-result');
 })(jQuery);
